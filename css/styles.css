@@ -17,6 +17,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif; 
+    color: #434455;
 }
 .link {
     text-decoration: none;  
@@ -24,21 +25,30 @@ body {
 .list {
     list-style-type: none;
 }
-.logo-blue {
-    font-family: 'Raleway', sans-serif;
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--color-logo-blue);
     text-transform: uppercase; 
 } 
 .logo-black {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--color-logo-black);
     text-transform: uppercase;    
 } 
 .logo-white {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--color-logo-white);
     text-transform: uppercase;
 }
@@ -52,7 +62,12 @@ body {
 .header-link:hover, .header-link:focus {
     color: var(--color-hover);
 }
-.header-email {
+
+.header-add {
+    font-style: normal;
+}
+
+.header-contacts-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -60,18 +75,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--contacts-color);
 }
-.header-email:hover, .header-email:focus {
-    color: var(--color-hover);
-}
-.header-tel {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--contacts-color);
-}
-.header-tel:hover, .header-tel:focus {
+.header-contacts-link:hover, .header-contacts-link:focus {
     color: var(--color-hover);
 }
 /**!-------------------------HERO----------------------------!*/
@@ -87,33 +91,33 @@ body {
     color: var(--main-title-color);
 }
 .hero-btn {
+    font-family: "Roboto", sans-serift;
     background: var(--btn-color);
-}
-.hero-btn:hover, .hero-btn:focus {
-    background: var(--color-hover);
-}
-    .hero-btn-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     display: flex;
     color: var(--btn-text-color);
     cursor: pointer;
 }
+.hero-btn:hover, .hero-btn:focus {
+    background: var(--color-hover);    
+}
+
 /**!-------------------------ADVANT----------------------------!*/
 .advant-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
 .advant-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
@@ -121,7 +125,7 @@ body {
 .doing-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -136,7 +140,7 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -145,14 +149,14 @@ body {
 .team-title-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
 .team-title-position {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
@@ -163,7 +167,7 @@ body {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
 }
@@ -171,7 +175,7 @@ body {
 .projects-btn {
     background: var(--background-filtr);
     cursor: pointer;
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -195,7 +199,7 @@ body {
 .projects-list-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
